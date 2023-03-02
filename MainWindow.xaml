@@ -11,6 +11,7 @@
             System Programming
         </Label>
         
-        <Button x:Name="Threading" Content="1. Multithreading" Margin="10" Padding="10 5" FontSize="18" HorizontalContentAlignment="Left" Click="Threading_Click"/>
+        <Button x:Name="Threading" Content="1. Threading" Margin="10" Padding="10 5" FontSize="18" HorizontalContentAlignment="Left" Click="Threading_Click"/>
+        <Button x:Name="MultiThreading" Content="2. Synchronization" Margin="10" Padding="10 5" FontSize="18" HorizontalContentAlignment="Left" Click="MultiThreading_Click"/>
     </StackPanel>
 </Window>
