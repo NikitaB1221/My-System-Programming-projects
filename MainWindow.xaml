@@ -13,5 +13,11 @@
         
         <Button x:Name="Threading" Content="1. Threading" Margin="10" Padding="10 5" FontSize="18" HorizontalContentAlignment="Left" Click="Threading_Click"/>
         <Button x:Name="MultiThreading" Content="2. Synchronization" Margin="10" Padding="10 5" FontSize="18" HorizontalContentAlignment="Left" Click="MultiThreading_Click"/>
+        <Button x:Name="TaskButton" 
+                Click="TaskButton_Click"
+                Content="3. Многозадачность"
+                Margin="10" Padding="10 5"
+                HorizontalContentAlignment="Left"
+                FontSize="18"/>
     </StackPanel>
 </Window>
