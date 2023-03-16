@@ -10,6 +10,12 @@
     <Compile Update="MultiWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ProcessWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SynchroWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="TaskWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,6 +28,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MultiWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ProcessWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SynchroWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="TaskWindow.xaml">
