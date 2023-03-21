@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SystemProgramming_111"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="300">
+        Title="MainWindow" Height="500" Width="300">
     <StackPanel>
         <Label FontSize="18" HorizontalContentAlignment="Center" Margin=" 0 10" FontWeight="DemiBold">
             System Programming
@@ -28,6 +28,12 @@
         <Button x:Name="ProcessButton" 
                 Click="ProcessButton_Click"
                 Content="5. Processes"
+                Margin="10" Padding="10 5"
+                HorizontalContentAlignment="Left"
+                FontSize="18"/>
+        <Button x:Name="DllButton" 
+                Click="ProcessButton_Click"
+                Content="6. Dll"
                 Margin="10" Padding="10 5"
                 HorizontalContentAlignment="Left"
                 FontSize="18"/>

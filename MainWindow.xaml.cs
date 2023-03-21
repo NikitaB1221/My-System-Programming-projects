@@ -56,7 +56,7 @@ namespace SystemProgramming_111
         private void ProcessButton_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
-            new ProcessWindow().ShowDialog();
+            new DllWindow().ShowDialog();
             this.Show();
         }
     }

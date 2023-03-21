@@ -234,5 +234,6 @@ namespace SystemProgramming_111
             public CancellationToken Token{ get; set; }
 
         }
+
     }
 }
