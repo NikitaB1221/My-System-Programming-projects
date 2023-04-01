@@ -56,6 +56,36 @@
                         Background="Blue"
                         Click="BlueXylophoneKey_Click"/>
             </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button
+                    Content="Thread" x:Name="Thread"
+                        Margin="10" Padding="7 2 7 4" FontSize="16"
+                        Click="Thread_Click"/>
+                <Label x:Name="SayHelloLabel"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button
+                    Content="Start" x:Name="Start"
+                        Margin="10" Padding="7 2 7 4" FontSize="16"
+                        Click="Start_Click"/>
+                <Label x:Name="TicksLabel" Width="75"></Label>
+                <Button
+                    Content="Stop" x:Name="Stop"
+                        Margin="10" Padding="7 2 7 4" FontSize="16"
+                        Click="Stop_Click" IsEnabled="False"/>
+            </StackPanel>
+            <StackPanel>
+                <Label Content="Timer Window"
+                       FontSize="18"
+                       FontWeight="DemiBold"
+                       HorizontalAlignment="Center"/>
+                <Button Content="Create Window"
+                        FontSize="18"
+                        FontWeight="DemiBold"
+                        Width="150"
+                        Padding="4"
+                        Margin="8" Click="Button_Click"/>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Window>

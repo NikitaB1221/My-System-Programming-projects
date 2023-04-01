@@ -15,7 +15,7 @@
         <Button x:Name="MultiThreading" Content="2. Synchronization" Margin="10" Padding="10 5" FontSize="18" HorizontalContentAlignment="Left" Click="MultiThreading_Click"/>
         <Button x:Name="TaskButton" 
                 Click="TaskButton_Click"
-                Content="3. Многозадачность"
+                Content="3. Multitasking"
                 Margin="10" Padding="10 5"
                 HorizontalContentAlignment="Left"
                 FontSize="18"/>
@@ -34,6 +34,12 @@
         <Button x:Name="DllButton" 
                 Click="ProcessButton_Click"
                 Content="6. Dll"
+                Margin="10" Padding="10 5"
+                HorizontalContentAlignment="Left"
+                FontSize="18"/>
+        <Button x:Name="HookButton" 
+                Click="HookButton_Click"
+                Content="7. System Hooks"
                 Margin="10" Padding="10 5"
                 HorizontalContentAlignment="Left"
                 FontSize="18"/>

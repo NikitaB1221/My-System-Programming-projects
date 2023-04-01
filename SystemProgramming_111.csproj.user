@@ -10,6 +10,9 @@
     <Compile Update="DllWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="HookWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="MultiWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -25,9 +28,15 @@
     <Compile Update="ThreadingWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="TimerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="DllWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HookWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
@@ -46,6 +55,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ThreadingWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TimerWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
